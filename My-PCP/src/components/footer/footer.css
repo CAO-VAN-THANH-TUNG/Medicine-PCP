@@ -1,0 +1,179 @@
+.medicine-footer {
+    max-width: 100%;
+    background: #028174;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap:200px;
+    padding: 90px 50px 50px 50px;
+}
+
+.footer-text-main {
+    color: #FFF;
+    font-family: 'Open Sans';
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.footer-text-extra {
+    color: #FFF;
+    font-family: 'Open Sans';
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.footer-input-out {
+    position: relative;
+    border-radius: 28pt;
+    border: 1px solid #FFF;
+    background: transparent;
+    padding: 5px 24px;
+    min-width: 400px;
+    min-height: 40px;
+    outline: none;
+    color: #FFF;
+    font-family: 'Open Sans';
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.footer-input{
+    position: absolute;
+    border-radius: 28pt;
+    border: 0;
+    background: transparent;
+    padding: 5px 50px 5px 35px;
+    outline: none;
+    color: #FFF;
+    font-family: 'Open Sans';
+    font-size: 18px;
+    font-weight: 600;
+    z-index: 99999;
+}
+
+::placeholder {
+    color: #FFF;
+    font-family: 'Open Sans';
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.footer-button {
+    position: absolute;
+    border-radius: 28pt;
+    background: #FFF;
+    padding: 7pt 28pt;
+    margin: 0;
+    outline: none;
+    border: 0;
+    color: #8f8f8f;
+    font-family: 'Open Sans';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    left: 280pt;
+}
+
+.container-footer-input {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    outline: none;
+    gap: 20px;
+}
+
+.footer-menu {
+    color: #000;
+    font-family: 'Open Sans';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+
+}
+
+.container-footer-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    Gap:60px;
+}
+
+.container-footer-products {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap:20px;
+}
+
+.footer-text-main-products {
+    color: #3E3E3E;
+    font-family: 'Open Sans';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.footer-text-extra-products {
+    color: #FFF;
+    font-family: 'Open Sans';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.footer-text-main-investors {
+    color: #3E3E3E;
+    font-family: 'Open Sans';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.footer-text-extra-investors {
+    color: #FFF;
+    font-family: 'Open Sans';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.container-input{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    gap:40px;
+
+}
+
+.container-footer-investors{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap:20px;
+}
+
+.container-footer-products-investors{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 129px;
+}
+
+.container-footer-menu-products-investors{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap:30px;
+}
+
+textarea {
+    resize: none;
+  }

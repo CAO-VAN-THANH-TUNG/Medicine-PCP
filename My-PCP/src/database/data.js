@@ -10,23 +10,28 @@ const data = {
     "menu": [
         {
             "number": "1",
-            "text": "HOME"
+            "text": "HOME",
+            "link": "http://"
         },
         {
             "number": "2",
-            "text": "SHOP"
+            "text": "SHOP",
+            "link": "http://"
         },
         {
             "number": "3",
-            "text": "MY TEAM"
+            "text": "MY TEAM",
+            "link": "http://"
         },
         {
             "number": "4",
-            "text": "ABOUT US"
+            "text": "ABOUT US",
+            "link": "http://"
         },
         {
             "number": "5",
-            "text": "EVENT"
+            "text": "EVENT",
+            "link": "http://"
         }
     ],
     "information": [

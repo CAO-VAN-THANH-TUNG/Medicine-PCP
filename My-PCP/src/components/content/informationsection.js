@@ -2,11 +2,11 @@ import React from "react";
 import "./content.css";
 import ButtonClick from "../button/button";
 import Triangle from "../../img/Triangle.jpg";
-import Specialties from "./specialties"
-function Informationsection(){
-    return(
-        <>
-            <div>
+import Specialties from "./specialties";
+function Informationsection() {
+  return (
+    <>
+      <div>
         <div className="rectangle-background">
           <div>
             <img
@@ -17,7 +17,9 @@ function Informationsection(){
           </div>
 
           <div className="container-rectangle-background">
-            <div className="rectangle-background-text">FOR A BETTER TOMORROW</div>
+            <div className="rectangle-background-text">
+              FOR A BETTER TOMORROW
+            </div>
 
             <div>
               <ButtonClick text="Our Therapies" />
@@ -30,25 +32,19 @@ function Informationsection(){
             <div>
               <div>
                 <div className="section-text-quantity">
-                    With more than 
-                  <div className="section-text-quantity-number">
-                      1000+
-                  </div>
+                  With more than
+                  <div className="section-text-quantity-number">1000+</div>
                 </div>
               </div>
-              
+
               <div>
                 <div className="section-text-quantity">
-                      products with 
-                    <div className="section-text-quantity-number">
-                      20000+
-                    </div>
+                  products with
+                  <div className="section-text-quantity-number">20000+</div>
                 </div>
               </div>
               <div>
-                <div className="section-text-quantity">
-                  employees
-                </div>
+                <div className="section-text-quantity">employees</div>
               </div>
             </div>
 
@@ -60,11 +56,10 @@ function Informationsection(){
           <div className="information-section-specialties">
             <Specialties />
           </div>
-
         </div>
-            </div>
-        </>
-    )
+      </div>
+    </>
+  );
 }
 
 export default Informationsection;
