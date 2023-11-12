@@ -1,29 +1,18 @@
 import React from "react";
-import Buttoncart from "../button/buttoncart";
-import './content.css';
-import data from "../../database/data.json";
-
-
-
-function content(){
-    return(
-
-        
-        <div className="container-item">
-            {data.product.map((product) => {
-                return (
-                    <div className="product-item">
-                        <div className="product-item-image">
-                            <img src={product.img} alt={product.name} />
-                        </div>
-                        <div className="product-item-name">{product.name}</div>
-                        <div className="product-item-price">{product.price}</div>
-                        <Buttoncart />
-                    </div>
-                );
-            })}
-        </div>
-    );
+import "./content.css";
+import Informationsection from "./informationsection";
+import Footer from "../footer/footer";
+import Ouremployees from "./ouremployees";
+import Aboutus from "./aboutus";
+function Content() {
+  return (
+    <>
+      <Informationsection />
+      <Aboutus />
+      <Ouremployees />
+      <Footer />
+    </>
+  );
 }
 
-export default content;
+export default Content;

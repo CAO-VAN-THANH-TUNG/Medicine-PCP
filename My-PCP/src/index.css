@@ -10,6 +10,8 @@ body{
   height: 100%;
   border-radius: 23px;
   overflow: scroll;
+  font-family: 'DM Sans';
+  fill: #FFF;
 }
 
 

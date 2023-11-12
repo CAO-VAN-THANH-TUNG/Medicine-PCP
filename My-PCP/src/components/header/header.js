@@ -1,29 +1,29 @@
 import React from "react";
 import "./header.css";
-import Logo from "../../img-logo/Logo.png";
-import data from "../../database/data.json";
+import Logo from "../../img/Logo.png";
+import data from "../../database/data";
 function header() {
   return (
-    <div class="header">
-      <div class="container-menu">
-        <div class="header-logo">
-          <img src={Logo} alt="Logo" class="image-logo"></img>
+    <div className="header">
+      <div className="container-menu">
+        <div className="header-logo">
+          <img src={Logo} alt="Logo" className="image-logo"></img>
         </div>
-        <div class="container-button-menu">
+        <div className="container-button-menu">
           {data.menu.map((menu) => {
-            return <li class="button-menu">{menu.text}</li>;
+            return <button className="button-menu">{menu.text}</button>;
           })}
         </div>
 
         <div className="container-button-search">
           <input
             type="search"
-            class="button-menu-search"
+            className="button-menu-search"
             placeholder="Search..."
           ></input>
         </div>
 
-        <div class="container-icon">
+        <div className="container-icon">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="32"

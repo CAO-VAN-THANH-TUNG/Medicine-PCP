@@ -3,14 +3,13 @@ import Addtocart from "../../img-icon/addtocart.png"
 import './buttoncart.css';
 function buttoncart(){
     return(
-        <div class="container-button-cart">
-            <div class="button-cart-text">ADD TO CART 
+        <div className="container-button-cart">
+            <div className="button-cart-text">ADD TO CART 
             </div>
             <div>
-                <img src={Addtocart} class="img-addtocart"></img>
+                <img src={Addtocart} className="img-addtocart"></img>
             </div>
         </div>
-
     )
 }
 

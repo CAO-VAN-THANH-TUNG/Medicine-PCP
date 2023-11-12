@@ -1,10 +1,11 @@
 import React from "react";
-
-function footer(){
+import "./footer.css";
+function Footer(){
     return(
         <>
+        
         </>
     )
 }
 
-export default footer;
+export default Footer;
