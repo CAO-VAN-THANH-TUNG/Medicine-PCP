@@ -7,8 +7,8 @@ export default function Footer() {
         <div className="footer-text-main">Stay up to date with Us</div>
         <div className="footer-text-extra">Get in touch</div>
         <div className="container-footer-input">
-          <input type="text" className="footer-input-out">
-          </input>
+          <div type="text" className="footer-input-out">
+          </div>
           <input type="text" className="footer-input" placeholder="Enter your email address"></input>
             <button className="footer-button">Join now</button>
         </div>

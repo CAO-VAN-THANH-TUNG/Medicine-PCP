@@ -39,7 +39,7 @@
     justify-content: center;
     gap: 70px;
     max-width: 100%;
-    padding: 110px;
+    padding: 110px 50px 50px 50px;
 }
 
 .container-information-section-text {
@@ -111,7 +111,7 @@
     align-items: center;
     max-width: 100%;
     justify-content: center;
-    gap:70px;
+    gap: 70px;
 
 }
 
@@ -144,7 +144,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap:10px;
+    gap: 10px;
 }
 
 .ouremployees {
@@ -152,7 +152,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap:74px;
+    gap: 74px;
     padding: 90px;
 }
 
@@ -163,4 +163,3 @@
     font-style: normal;
     font-weight: 700;
 }
-

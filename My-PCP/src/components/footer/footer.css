@@ -6,7 +6,7 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: flex-start;
-    gap:200px;
+    gap: 200px;
     padding: 90px 50px 50px 50px;
 }
 
@@ -31,7 +31,7 @@
     border-radius: 28pt;
     border: 1px solid #FFF;
     background: transparent;
-    padding: 5px 24px;
+    padding: 8px 24px;
     min-width: 400px;
     min-height: 40px;
     outline: none;
@@ -41,18 +41,19 @@
     font-weight: 600;
 }
 
-.footer-input{
+.footer-input {
     position: absolute;
     border-radius: 28pt;
     border: 0;
     background: transparent;
-    padding: 5px 50px 5px 35px;
+    padding: 7px 50px 7px 20px;
     outline: none;
     color: #FFF;
     font-family: 'Open Sans';
     font-size: 18px;
     font-weight: 600;
     z-index: 99999;
+    width: 280px;
 }
 
 ::placeholder {
@@ -66,19 +67,21 @@
     position: absolute;
     border-radius: 28pt;
     background: #FFF;
-    padding: 7pt 28pt;
+    padding: 8pt 18pt;
     margin: 0;
     outline: none;
-    border: 0;
     color: #8f8f8f;
     font-family: 'Open Sans';
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
-    left: 280pt;
+    left: 240pt;
+    border: 1px solid #028174;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) inset;
 }
 
 .container-footer-input {
+    position: relative;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -100,7 +103,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    Gap:60px;
+    Gap: 60px;
 }
 
 .container-footer-products {
@@ -108,7 +111,7 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    gap:20px;
+    gap: 20px;
 }
 
 .footer-text-main-products {
@@ -143,37 +146,37 @@
     font-weight: 600;
 }
 
-.container-input{
+.container-input {
     display: flex;
     flex-direction: column;
     width: 500px;
-    gap:40px;
+    gap: 40px;
 
 }
 
-.container-footer-investors{
+.container-footer-investors {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    gap:20px;
+    gap: 20px;
 }
 
-.container-footer-products-investors{
+.container-footer-products-investors {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 129px;
 }
 
-.container-footer-menu-products-investors{
+.container-footer-menu-products-investors {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    gap:30px;
+    gap: 30px;
 }
 
 textarea {
     resize: none;
-  }
+}
