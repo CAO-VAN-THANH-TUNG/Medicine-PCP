@@ -1,8 +1,8 @@
 import React from "react";
-import "./content.css";
-import ButtonClick from "../button/button";
-import Triangle from "../../img/Triangle.jpg";
-import Specialties from "./specialties";
+import "../../content/content.css";
+import ButtonClick from "../../button/button";
+import Triangle from "../../../img/Triangle.png";
+import Specialties from "../specialties/specialties";
 function Informationsection() {
   return (
     <>

@@ -1,14 +1,15 @@
 import React from "react";
 import "./content.css";
-import Informationsection from "./informationsection";
-// import Footer from "../footer/footer";
-import Ouremployees from "./ouremployees";
-import Aboutus from "./aboutus";
+import Informationsection from "./section/informationsection";
+import Ouremployees from "./ouremployees.js/ouremployees";
+import ContactUs from "./contactcus/contactus";
+import Aboutus from "./aboutus/aboutus";
 function Content() {
   return (
     <>
+      <Aboutus/>
       <Informationsection />
-      <Aboutus />
+      <ContactUs />
       <Ouremployees />
       {/* <Footer /> */}
     </>

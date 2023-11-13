@@ -12,6 +12,8 @@ body{
   overflow: scroll;
   font-family: 'DM Sans';
   fill: #FFF;
+  align-items: center;
+  background-color: whitesmoke;
 }
 
 
