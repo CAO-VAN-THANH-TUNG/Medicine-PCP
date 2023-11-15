@@ -11,7 +11,6 @@ function Content() {
       <Informationsection />
       <ContactUs />
       <Ouremployees />
-      {/* <Footer /> */}
     </>
   );
 }

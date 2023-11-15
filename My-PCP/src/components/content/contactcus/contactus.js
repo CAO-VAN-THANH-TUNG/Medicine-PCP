@@ -4,13 +4,12 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 
 // Import Swiper styles
 import 'swiper/css';
-import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import data from "../../../database/data";
 import "./contactus.css";
 
 // import required modules
-import { Autoplay, Pagination, Navigation } from 'swiper/modules';
+import { Autoplay, Navigation } from 'swiper/modules';
 
 export default function ContactUs() {
   return (
@@ -27,7 +26,7 @@ export default function ContactUs() {
           clickable: true,
         }}
         navigation={true}
-        modules={[Autoplay, Pagination, Navigation]}
+        modules={[Autoplay, Navigation]}
         className="mySwiper"
       >
         {data.slides.map((slides) => {
