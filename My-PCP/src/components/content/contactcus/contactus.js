@@ -14,7 +14,6 @@ import { Autoplay, Navigation } from 'swiper/modules';
 export default function ContactUs() {
   return (
     <div className='aboutus-advertisement'>
-      <h1>Contact Us</h1>
       <Swiper
         spaceBetween={30}
         centeredSlides={true}
