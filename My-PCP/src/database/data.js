@@ -12,32 +12,33 @@ import slide3 from "../img/slide3.jpg";
 import slide4 from "../img/slide4.jpg";
 import slide5 from "../img/slide5.jpg";
 
+
 const data = {
   menu: [
     {
       number: "1",
       text: "HOME",
-      link: "http://",
+      link: "/home",
     },
     {
       number: "2",
       text: "SHOP",
-      link: "http://",
+      link: "/shop",
     },
     {
       number: "3",
       text: "MY TEAM",
-      link: "http://",
+      link: "/myteam",
     },
     {
       number: "4",
       text: "ABOUT US",
-      link: "http://",
+      link: "/aboutus",
     },
     {
       number: "5",
       text: "EVENT",
-      link: "http://",
+      link: "/event",
     },
   ],
   information: [

@@ -1,7 +1,7 @@
 import './even.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import ProductList from "./Produc-list";
-import React, { useState } from 'react';
+import React from 'react';
 import { Routes, Route, Link } from "react-router-dom";
 import Event_2 from './event2';
 function Event_1() {
@@ -47,7 +47,6 @@ function Event_1() {
         ],
     };
     return (
-
         <div className="khungchua">
             <div>
                 <img className="img-header" src="https://icdn.24h.com.vn/upload/2-2022/images/2022-05-17/picture-1-1652776802-797-width660height440.jpg" alt="header" />
@@ -83,7 +82,7 @@ function Event_1() {
                     <ul className="pagination">
                         <li className="page-item">
                             <Link className="page-link" to="/event">
-                                <span aria-hidden="true">&laquo;</span>
+                                <span aria-hidden="true"></span>
                             </Link>
                         </li>
                         <li className="page-item"><Link className="page-link" to={`/event2`}>1</Link></li>

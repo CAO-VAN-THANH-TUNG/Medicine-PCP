@@ -1,5 +1,5 @@
 import React from "react";
-import "../../content/content.css";
+import "../content.css";
 import data from "../../../database/data";
 
 function Specialties() {
